@@ -1,9 +1,9 @@
 ## Scores
 
-Correctness:    2/4
-Efficiency:     3/4
-Style:          2/4
-Documentation:  4/4
+- Correctness:    2/4
+- Efficiency:     3/4
+- Style:          2/4
+- Documentation:  4/4
 
 ## Positive aspects of submission:
 
