@@ -4,6 +4,7 @@ from isbn_solution import isbn13
 
 class TestSum(unittest.TestCase):
 
+    # Test cases used to test solution
     def test_isbn13(self):
         self.assertIn(isbn13("9780316066525"), "Valid")
         self.assertIn(isbn13("9780330101820"), "Valid")
@@ -22,7 +23,7 @@ class TestSum(unittest.TestCase):
         self.assertIn(isbn13("ZZZZZZ"), "Invalid")
         self.assertIn(isbn13("1235468546235"), "Invalid")
         self.assertIn(isbn13("5241683002"), "Invalid")
-        self.assertIn(isbn13("9653214058"), "Invalid")
+        self.assertIn(isbn13("965&$14058"), "Invalid")
         self.assertIn(isbn13("64511826X9"), "Invalid")
 
 

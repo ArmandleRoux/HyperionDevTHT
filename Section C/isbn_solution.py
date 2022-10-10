@@ -64,6 +64,7 @@ def convert_to_isbn13(isbn):
 
 
 def run_solution():
+    # Function alows user to test USBN umbers manually
     while True:
         choice = input("Enter and ISBN10 or ISBN13 to validate:"
                         + "\n(Enter '0' to quit)\n")
