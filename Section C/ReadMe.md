@@ -1,10 +1,10 @@
-### ISBN Solution
+# ISBN Solution
 
 This program validates ISBN10 and ISBN13 numbers. 
 Numbers can be manually entered to validate.
 testing.py included to show testing of solution.
 
-# Instructions
+### Instructions
 
 1. Launch command promt
 2. Navigate to the folder with the file using command
@@ -20,7 +20,7 @@ testing.py included to show testing of solution.
   - Linux: "python3 testing.py"
   - MacOS: "python3 testing.py"
 
-# Complexity
+### Complexity
 
 - Time complexity: O(1)
 - Space complexity: O(1)
